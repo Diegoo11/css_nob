@@ -1,16 +1,43 @@
+* {
+    font-family: comic_san;
+    margin: 0px;
+    padding: 0px;
+}
 body {
-    background-color: black;
-}
-.owo {
-    color:blanchedalmond;
-}
-#uwu {
-    color: coral;
+    background-color: rgb(214, 214, 214);
 }
 @font-face {
     font-family: comic_san;
     src: url(letra1.ttf);
 }
-* {
+@font-face {
+    font-family: chicory;
+    src: url(letra\ 2.TTF);
+}
+header {
+    background-color: red;
+    color: rgb(255, 255, 255);
+    height: 150px;
+    font-family: chicory;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 150px;
+}
+#contenido {
+    width: 60%;
+    margin: 0px auto;
+}
+#owo {
+    width: 80%;
+    margin: 0px auto;
+}
+footer {
+    background-color: black;
+    color: rgb(255, 255, 255);
     font-family: comic_san;
+    font-size: 90px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
 }
