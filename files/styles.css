@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+.owo {
+    color:blanchedalmond;
+}
+#uwu {
+    color: coral;
+}
+@font-face {
+    font-family: comic_san;
+    src: url(letra1.ttf);
+}
+* {
+    font-family: comic_san;
+}
