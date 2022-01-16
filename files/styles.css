@@ -15,7 +15,7 @@ body {
     src: url(letra\ 2.TTF);
 }
 header {
-    background-color: red;
+    background-color: rgb(180, 0, 0);
     color: rgb(255, 255, 255);
     height: 150px;
     font-family: chicory;
@@ -23,14 +23,33 @@ header {
     width: 100%;
     text-align: center;
     line-height: 150px;
+    border-bottom: 4px solid white;
 }
 #contenido {
     width: 60%;
     margin: 0px auto;
 }
 #owo {
-    width: 80%;
     margin: 0px auto;
+    background-color: rgb(180, 0, 0);
+    color: rgb(255, 255, 255);
+    float: left;
+    height: 726px;
+    border-bottom: 5px solid white;
+    text-align: center;
+    line-height: 55px;
+    width: 140px;
+    border-right: 5px solid white;
+}
+nav ul li {
+    float: left;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+}
+nav {
+    background: rgb(180, 0, 0);
+    height: 85px;
+
 }
 footer {
     background-color: black;
@@ -40,4 +59,14 @@ footer {
     height: 200px;
     text-align: center;
     line-height: 200px;
+}
+.cabesita {
+    background-color: rgb(180, 0, 0);
+    color: rgb(255, 255, 255);
+    border-top: 5px solid white;
+    font-size: 20px;
+    border-bottom: 5px solid white;
+    height: 45px;
+    line-height: 45px;
+
 }
